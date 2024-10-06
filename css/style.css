@@ -19,6 +19,7 @@ button {
 
 .logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -62,10 +63,14 @@ button {
     .main-title_title{
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.13;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+    }
+
+    .button {
+        cursor: pointer
     }
 
     .button-btn{
@@ -81,7 +86,12 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #fff;
+        color: #ffffff;
+    }
+
+    .button-pointer:hover,
+    .button-pointer:focus {
+        background-color: #404BBF
     }
 
 
@@ -100,8 +110,11 @@ button {
         color: #434455;
     }
 
+    .ourteam {
+        background-color: #F4F4FD
+    } 
+
     .ourteam-title {
-        text-transform: capitalize
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 0.02em;
@@ -125,7 +138,6 @@ button {
     }
 
     .potrfolio-title {
-        text-transform: capitalize
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 0.02em;
