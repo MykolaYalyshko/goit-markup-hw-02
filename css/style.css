@@ -83,11 +83,13 @@ button {
         cursor: pointer;  
     }
 
-    .button-btn:hover,
-    .button-btn:focus {
+    .button-btn:hover {
         background-color: #404BBF
     }
 
+    .button-btn:focus {
+        background-color: #404BBF
+    }
     .feature-titile_normal {
         font-weight: 500;
         font-size: 20px;
@@ -102,6 +104,10 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+    }
+
+    .ourteam {
+        background-color: #F4F4FD
     }
 
     .ourteam-item {
