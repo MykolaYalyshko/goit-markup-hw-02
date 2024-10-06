@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -26,10 +30,6 @@ a {
     color: #2e2f42;
 }
 
-.header-list {
-
-}
-
 .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -39,7 +39,7 @@ a {
     }
 
     .contacts {
-        font-style: normal;
+    font-style: normal;
     }
 
     .contacts-link {
@@ -56,15 +56,16 @@ a {
     }
 
     .main-title {
-        background: #2e2f42;
+    background: #2e2f42;
     }
 
     .main-title_title{
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.13;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
     }
 
     .button-btn{
@@ -83,9 +84,6 @@ a {
         color: #fff;
     }
 
-    .button {
-        cursor: pointer;
-    }
 
     .feature-titile_normal {
         font-weight: 500;
@@ -103,8 +101,9 @@ a {
     }
 
     .ourteam-title {
+        text-transform: capitalize
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -126,8 +125,9 @@ a {
     }
 
     .potrfolio-title {
+        text-transform: capitalize
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -150,6 +150,10 @@ a {
 
     .footer-footer {
         background: #2e2f42;
+    }
+
+    .footer-logo {
+        font-weight: 700;
     }
 
     .footer-logo_right {
