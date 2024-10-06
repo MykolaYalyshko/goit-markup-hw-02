@@ -76,15 +76,16 @@ button {
 
     .button-btn{
         background: #4d5ae5;
-        color: #ffffff;
+        color:  #ffffff;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;  
     }
 
-    .button-btn:hover {
-        background: #404bbf;
+    .button-btn:hover,
+    .button-btn:focus {
+        background-color: #404BBF
     }
 
     .feature-titile_normal {
@@ -103,7 +104,7 @@ button {
         color: #434455;
     }
 
-    .ourteam {
+    .ourteam-item {
         background-color:#FFFFFF;
     } 
 
