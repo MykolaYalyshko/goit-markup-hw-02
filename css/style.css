@@ -9,6 +9,10 @@ ol {
     list-style: none;
 }
 
+h2 {
+    text-transform: capitalize
+}
+
 a {
     text-decoration: none;
 }
@@ -67,33 +71,21 @@ button {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-    }
-
-    .button {
-        cursor: pointer
+        text-transform: capitalize;
     }
 
     .button-btn{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background: #4d5ae5;    
-    }
-
-    .button-pointer {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
+        background: #4d5ae5;
         color: #ffffff;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;  
     }
 
-    .button-pointer:hover,
-    .button-pointer:focus {
-        background-color: #404BBF
+    .button-btn:hover {
+        background: #404bbf;
     }
-
 
     .feature-titile_normal {
         font-weight: 500;
@@ -101,6 +93,7 @@ button {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-transform: capitalize;
     }
 
     .feature-text {
@@ -111,15 +104,17 @@ button {
     }
 
     .ourteam {
-        background-color: #F4F4FD
+        background-color:#FFFFFF;
     } 
+
 
     .ourteam-title {
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
     }
 
     .ourteam-title_title {
@@ -139,10 +134,11 @@ button {
 
     .potrfolio-title {
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
     }
 
     .portfolio-out_title {
